@@ -52,6 +52,7 @@ function App() {
                 rows='1'
                 className='chat-input-textarea'
                 value={input}
+                placeholder="Digite palavras para criar um poema, ex: flor, arvore, amor..."
                 onChange={e =>setInput(e.target.value)}
               >
               </input>
